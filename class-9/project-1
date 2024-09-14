@@ -9,39 +9,34 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
     body{
-      background-color:black;
     }
 h2{
-     color: yellow;
-     text-shadow: rgb(255, 255, 255) -13px 10px 4px,blue -12px 10px 1px ;
-    
-    letter-spacing: 1px;
-    text-align: left;
-    font-size: 35px;
-    font-weight:100;
-    font-style:italic ;
-    font-family: ;
-    color: yellow;
+  color: rgb(133, 255, 255);
+  text-shadow: rgb(255, 255, 255) -13px 10px 4px,black -12px 10px 3px ;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 35px;
+  font-weight:100;
+  font-style:italic ;
+  font-family: ;
+  text-decoration: underline;
 }
 #protest-guerrilla-regular {
   font-family: "Protest Guerrilla", sans-serif;
   font-weight: 400;
   font-style: normal;
   }
-</style>
+  </style>
 </head>
 
 <body>
-  <header>
     <h2 id="protest-guerrilla-regular">
-      izyan zubair moters
+      izyan zubair
     </h2>
-    <div>
-      <label>Search :</label>
-      <input type="Search" placeholder="Search">
+    <div class="my div">
+      <h3>Welcome to my website</h3>
     </div>
-</header>
   <script src="script.js"></script>
 </body>
 
-</tml>
+</html>
