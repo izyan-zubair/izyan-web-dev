@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>izyan zubair</title>
+</head>
+
+<body>
+    <!-- h1 is used for headings.followed by h2 which has lass value then h1.followed by h3 and so on -->
+    <h1>hello world</h1>
+    <p> <b><mark><del>hello</del></mark></b>.<br>i am <strong><sup>izyan</sup></strong> and i live in
+        <strong><i><sub>karachi , pakistan</sub>.</i></strong> i love coding on<b><em> Visual Studio Code.</em></b>
+    </p>
+    <script src="script.js"></script>
+</body>
+
+</html>

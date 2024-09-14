@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+    }
+    html,body{
+      height: 100%;
+      width: 100%;
+    }
+     div{
+    
+     height: 100%;
+     width: 100%;
+     background-color: yellow;
+     background-position: top right;
+     background-image: url(https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    #radial-Gradient{
+      height: 100px;
+      width: 100px;
+      background: radial-Gradient(circle ,rgb(0, 195, 255),rgb(206, 228, 13),rgb(0, 255, 0));
+      animation: moveleft 5s linear infinite
+      }
+      @keyframes moveleft{
+        0%{
+          transform: translateX(0px);
+        }
+        100%{
+          transform: translateX(500px);
+        }
+      }
+    .linear-Gradient{
+      
+      height: 100px;
+      width: 100px;
+      background: linear-Gradient(blue 30%,yellow 70%,green 100%);
+      animation:moveleft 5s linear infinite
+    }
+    @keyframes moveleft{
+        0%{
+          transform: translateX(0px);
+        }
+        100%{
+          transform: translateX(500px);
+        }
+      }
+    @keyframes moveup{
+         100% { 
+        opacity: 1;
+        transform:translateY(0px);
+      } 
+    }
+    .animation{
+      opacity: 1;
+      background-color: yellow;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px;
+      padding: 100px;
+      transform: translateY(50px); 
+      animation-timing-function: eas;
+      animation:moveup 2s linear forwards;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="animation">
+    <b>A keyframe in animation is a crucial point or frame that defines the starting or ending position of an object or character. It serves as a reference point for animators to create smooth and fluid motion.</b>
+  </div>
+  <div id="radial-Gradient"></div>
+  
+  <div class="linear-Gradient"></div>
+  <script src="script.js">
+  </script>
+</body>
+
+</html>

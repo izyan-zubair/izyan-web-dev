@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+</head>
+<body>
+
+<table border="5">
+    <tr>
+        <th bgcolor="yellow">Name</th>
+        <th bgcolor="yellow">Age</th>
+        <th bgcolor="yellow">Contect</th>
+    </tr>
+    <tr>
+        <th>Izyan Zubair</th>
+        <th>15</th>
+        <th>987956687698</th>
+    </tr>
+    <tr>
+        <th>Zaiyan Asadi</th>
+        <th>17</th>
+        <th>355587576586</th>
+    </tr>
+    <tr>
+        <th>Ayan Khan</th>
+        <th>14</th>
+        <th>456477776768</th>
+    </tr>
+</table>    
+</body>
+</html>

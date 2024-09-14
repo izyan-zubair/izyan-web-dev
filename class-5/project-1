@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>header</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href=c:\Users\Dell\Downloads\chapter 10 (2).pdf>website</a></li>
+        <li><a href="file:///C:/Users/Dell/Downloads/chapter%206.pdf">website</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1>hello</h1>
+      <p>i am izyan</p>
+    </article>
+    <section>
+      <h1>body teg</h1>
+      <ol>
+        <li>header</li>
+        <li>main</li>
+        <li>footer</li>
+      </ol>
+    </section>
+  </main>
+  <footer>created by Izyan Zubair</footer>
+</body>
+</html>

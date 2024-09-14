@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+</head>
+<body><h1>img</h1>
+<img src="https://w0.peakpx.com/wallpaper/123/54/HD-wallpaper-scenery-lake-nature-sky-tree-water.jpg"
+    alt="scenery picture of a tree">
+    <h1>iframe</h1>
+    <iframe src="https://youtu.be/oNy-dxPISmo?auto play"></iframe>
+    <h1>Audio</h1>
+    <audio controls>
+        <source src="audio.mp3">
+    
+    </audio>
+    <h1>video</h1>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+    </source>
+    </video>
+</body>
+</html>

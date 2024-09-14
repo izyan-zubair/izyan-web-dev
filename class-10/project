@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    input[type ="text"]{
+    border-color: rgb(3, 238, 255);
+    }
+    input[type ="password"]{
+        border-color: rgb(255, 255, 0);
+    }
+    button{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+        padding: 10px;
+       
+        
+    }
+  li:nth-child(2) {
+        color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+    <label><b>Name</b></label>
+    <input type="text">
+    <br><br>
+    <label><b>Password</b></label>
+    <input type="password">
+    <ul>
+        <li>item 1</li> 
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <br><br>
+    <button>submit</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
