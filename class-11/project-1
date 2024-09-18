@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    h1{
+       text-transform:capitalize ;
+    }
+    #name{
+         text-transform:capitalize ;
+         margin: 20px;
+         padding: 20px;
+         background-color: yellow;
+         border: 5px solid;
+    }
+    .name{
+        margin: 20px;
+        border: 10px solid;
+        padding: 20px;
+        background-color: aqua;
+         text-transform:capitalize 
+    }
+    
+  </style>
+</head>
+<body>
+        <div>
+        <h1>box model example</h1>
+        <hr></div>
+        <p id="name"><b>my content Example 1</b></p>
+        <hr>
+        <p class="name"><b>my content Example 2</b></p><hr>
+  <script src="script.js"></script>
+</body>
+
+</html>
