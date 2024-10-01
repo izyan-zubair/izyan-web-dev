@@ -11,7 +11,7 @@
 </head>
 
 <body style="background-color: #00ffd5;">
-    <center>
+     <center>
         <h1 class="display-1" style="text-decoration: underline 3px; text-transform: capitalize;"><b>Abbreviations</b></h1>
         <p class="h1 text-center">It is used to mark up an <abbr title="abbr">abbreviation</abbr> or acronym</p>
         <br>
