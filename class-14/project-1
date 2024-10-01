@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+
+<body style="background-color: #00ffd5;">
+    <center>
+        <h1 class="display-1" style="text-decoration: underline 3px; text-transform: capitalize;"><b>Abbreviations</b></h1>
+        <p class="h1 text-center">It is used to mark up an <abbr title="abbr">abbreviation</abbr> or acronym</p>
+        <br>
+        <h1 class="display-2 text-center" style="text-decoration: underline  3px;"><b>keyboard inputs</b></h1>
+        <h1 class="h2 text-center">To indicate input that is typically entered via the keyboard, use the kbd element:</h1>
+        <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+        <h1 class="display-3" style="text-decoration: underline 3px;"><b>Multiple line code</b></h1>
+        <p>For multiple lines of code, use the pre element:</p>
+        <pre style="text-transform: capitalize;">
+    codingal is on 
+    mission to inspire 
+    all the school kids </pre>
+            
+            <h2 class="display-4 text-center" style="text-transform: capitalize;text-decoration: underline 3px;"><b>blockquote</b></h2>
+            <br>
+            <p class="h4 text-center">it is used to present content from another source:</p>
+            <blockquote class="blockquote">
+                <p>a well known quote, contained a blockquote</p>
+             <p class="blockquote-footer">someone famous in <cite> India</cite></p>
+       </blockquote>
+       <footer style="margin: 20px;">made by a Codingal student </footer>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    </body>
+
+</html>
