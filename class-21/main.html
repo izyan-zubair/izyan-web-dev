@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Hello world
+  <script>
+    let name = "coding";
+    let upperCaseName = name.toUpperCase();
+    console.log(upperCaseName);
+
+    let text = "hello123";
+    let hasNumbers = /\d/.test(text);
+    console.log(hasNumbers);
+
+    // Replace all digits with
+    let replacedText = text.replace(/\d/g, "*");
+    console.log(replacedText);
+
+    // for loop
+    for (let i = 1; i <= 12; i++){
+      console.log(i);
+    }
+
+    // while loop
+    let count = 1;
+    while (count <= 5){
+      console.log(count);
+      count++;
+    }
+    
+    // switch statment exemple
+      let day = "monday";
+      switch (day) {
+        case "monday";
+          console.log("start of the the work week!");
+          break;
+        case "wednesday";
+          console.log("midweek already");
+          break;
+        case "friday";
+          console.log("weekend is near ");
+          break;
+        default:
+          console.log("enjoy your day!");
+          break;
+      }
+
+  </script>
+</body>
+
+</html>

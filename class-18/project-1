@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body> 
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Super Car</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Sports Car</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Electric Car</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">SUVs</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Muscle Car</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+            <h4 id="scrollspyHeading1">Super Car</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem consequuntur corporis quasi eveniet minima eos ipsam vero, cupiditate ut perferendis ipsum saepe maiores alias sit, nesciunt, consequatur impedit quas similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a aliquam accusamus officiis reiciendis aliquid. Ipsam, cupiditate amet optio, eaque porro inventore placeat nobis qui aliquid ullam fuga nihil reprehenderit.</p>
+            <h4 id="scrollspyHeading2">Sports car</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque qui ut voluptatum ratione officiis laborum dolor quod consectetur possimus accusantium nulla explicabo, sunt eum fugit eius ullam cum error Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus impedit perspiciatis sequi culpa. Ducimus, aliquam labore non quam, quisquam omnis quos esse unde fugit officia debitis! Ipsum fuga veniam doloribus?</p>
+            <h4 id="scrollspyHeading3">Electric Car</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo consequatur culpa cupiditate veritatis odio commodi minima quia officia, aliquid animi quaerat ea eligendi, perferendis adipisci earum ex aspernatur laborum!
+            Placeat consequuntur error perferendis fugit sint reprehenderit officia fugiat eligendi, consectetur itaque inventore numquam quaerat illum vitae quis ipsam ipsum, tenetur deleniti nemo, nihil quae hic! Fugit reprehenderit inventore illo!</p>
+            <h4 id="scrollspyHeading4">SUVs</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut minima quod, neque quibusdam natus qui nostrum ducimus! Quam illum optio itaque iusto aliquam esse beatae hic, possimus fuga asperiores.
+            Libero autem placeat facilis veniam labore vero eum laudantium ipsam nulla quaerat, soluta magni magnam nihil obcaecati beatae. Fuga deleniti fugiat nulla alias corrupti ab non? Officiis sit natus mollitia?</p>
+            <h4 id="scrollspyHeading5">Muscle Car</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda aliquam vel reprehenderit ratione alias, beatae ex, deleniti tempore eaque sapiente obcaecati! Perspiciatis dignissimos ad voluptate, blanditiis ullam ut non dolores.
+            Autem, impedit. Accusamus odio atque totam fugiat quibusdam deleniti, iure praesentium, maxime sed perspiciatis corporis dolorem? Minus voluptatem necessitatibus nostrum quae placeat, qui, consequatur fugiat recusandae tempora cum accusantium doloremque?</p>
+        </div>
+
+    <div id="carouselExample" class="carousel slide" style="margin: 50px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.istockphoto.com/id/1712932933/photo/modern-sports-car-parked-on-rooftop.jpg?s=612x612&w=0&k=20&c=vi2Z20PX1YreYYDm--B3VSECyzoG0_j3PQCP_91OMa4=" class="d-block w-100" alt="sports car">
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.istockphoto.com/id/1738048835/photo/empty-garage-with-modern-sports-car.jpg?s=612x612&w=0&k=20&c=qHQhrsm-K82JhwhTtMQ1Ww-A3CgNqOvYkjkngkLorJY=" class="d-block w-100" alt="sports car">
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.istockphoto.com/id/1443383974/photo/parked-vehicle-in-concrete-garage.jpg?s=612x612&w=0&k=20&c=wXC3wHsSp7s07JRESVInax7OISqu2jcJTkrcZfhpr0w=" class="d-block w-100" alt="Electric Car">
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.istockphoto.com/id/185256254/photo/suv-car-in-studio-isolated-with-clipping-path.jpg?s=612x612&w=0&k=20&c=-vg80tZzV1WWWQzAJC9oU70JGVOG6pBSGbjCHHPmFTQ=" class="d-block w-100" alt="SUV">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.sanity.io/images/n5z5pg8m/production/f6dac5840dc36b9305db1f2daeffef25c6659de3-628x418.jpg?rect=0,33,628,353&w=1280&h=720" class="d-block w-100" alt="Muscle Car">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

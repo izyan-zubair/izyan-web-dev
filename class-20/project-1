@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body{
+      background-color: aqua;30
+    }
+  </style>
+</head>
+
+<body>
+    <center>
+    <b> <h2 style="text-decoration: underline;">Enter valeus</h2>
+    Number-1<input type="number" id="Num-1"><br><br>
+    Number-2<input type="number" id="Num-2"></b><br><br>
+    <button onclick="sum()"><b>ADDITION</b></button><br><br>
+    <button onclick="sup()"><b>SUPRACTION</b></button><br><br>
+    <button onclick="mut()"><b>MUTLTIPLYCATION</b></button><br><br>
+    <button onclick="div()"><b>DIVISTION</b></button>
+    <h3 id="result"></h3>
+</center>
+    <script>
+        function sum(){
+            let a = parseInt(document.getElementById("Num-1").value)
+            let b = parseInt(document.getElementById("Num-2").value)
+            let sum = a + b
+
+            document.getElementById("result").innerHTML = "The sum of " + a + " and  " + b + " is " + sum}
+        function sup(){
+            let a = parseInt(document.getElementById("Num-1").value)
+            let b = parseInt(document.getElementById("Num-2").value)
+            let sum = a - b
+
+            document.getElementById("result").innerHTML = "The sup of " + a + " and  " + b + " is " + sum
+        }
+        function mut(){
+            let a = parseInt(document.getElementById("Num-1").value)
+            let b = parseInt(document.getElementById("Num-2").value)
+            let sum = a * b
+
+            document.getElementById("result").innerHTML = "The mut of " + a + " and  " + b + " is " + sum
+        }
+        function div(){
+            let a = parseInt(document.getElementById("Num-1").value)
+            let b = parseInt(document.getElementById("Num-2").value)
+            let sum = a / b
+
+            document.getElementById("result").innerHTML = "The mut of " + a + " and  " + b + " is " + sum
+        }
+  </script>
+</body>
+
+</html>
