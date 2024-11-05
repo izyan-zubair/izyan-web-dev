@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script>
+    const phone = {
+        brand: "LG",
+        model: "G6",
+        year: "2017",
+        start: function() {
+            console.log("phone is starting");
+        }
+    };
+    console.log(phone.brand);
+    console.log(phone.model);
+    console.log(phone.year);
+
+    phone.model = "Camry";
+    console.log(phone);
+    phone.color = "red"
+    console.log(phone.color)
+
+    let person = {
+        name: "Mike",
+        greet: function(para) {
+            console.log(para + ", " + this.name);
+        }
+    }
+    person.greet("hello");
+
+    let currentDate = new Date();
+    console.log(currentDate);
+    console.log(Math.PI);
+    console.log(Math.round(914.926));
+    console.log(Math.sqrt(914));
+    console.log(Math.random())
+    </script>
+</body>
+
+</html>
