@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <center>
+  <h1>Multiply every element in the arry with 10</h1>
+  <hr>  
+  <h2 id="product_value"></h2>
+</center>
+  <script>
+    let numbers = [45, 26, 87, 96, 17]
+    numbers.sort((a, b)=> a - b);
+    console.log(numbers);
+
+    let numbers2 = [5, 3, 8, 1, 2]
+    numbers.sort((a, b) => b - a);
+    console.log(numbers2)
+
+    let numbers3 = [1, 2, 3, 4, 5]
+    numbers3.reverse();
+    console.log(numbers3);
+
+    let strings = ["mango", "graps", "cherry"];
+    strings.sort();
+    console.log(strings)
+
+    let numbers4 = [ 1, 2, 3, 4, 5];
+    let doubled = numbers.map((num)=> num * 2);
+     console.log(doubled)
+
+     let x = 56;
+     let y = 78;
+     let expression = "x + y ";
+     let result = eval(expression);
+     console.log(result)
+
+     var numbers5 = [20, 6 ,19, 95];
+     function myFunction(num){
+        returnnum = 10;
+
+        var newarray = numbers5.map(myFunction);
+        document.getElementById("product_value").innerhtml = newarray;
+     }
+  </script>
+</body>
+
+</html>

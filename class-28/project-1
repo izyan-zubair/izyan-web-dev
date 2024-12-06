@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const student = {
+        name: "izyan",
+        age: "15",
+        subjects: ["maths", "sicence"],
+    };
+
+    const studentJSON = JSON.stringify(student);
+    console.log("JSON Format:", studentJSON);
+
+    const studentObj = JSON.parse(studentJSON);
+    console.log("Javascript Object:", studentObj);
+
+     console.log("hello1")
+     setTimeout(function(){
+        console.log("hello2")
+     },5000
+    )
+    console.log("hello3")
+
+    function sum(a, b){
+        console.log(a + b)}
+        function calculater(a, b, callback){
+            return callback(a, b)
+        }
+
+    calculater(2, 3, sum)
+
+    var     pro = new Promise((res, rej)=>{
+        let a = false;
+        if (a){
+            res("data fatched")
+        } else{
+            rej("erorr 404");
+        }
+    })
+    pro 
+    .then((data)=>{
+        console.log(data)
+    })
+    .catch((erorr)=>{
+      console.log(erorr)  
+    })
+
+    async function CallApi() {
+        let raw = await fetch(`https://randomiser ./api`);
+        let ans = await raw.json()
+        console.log(ans)
+    }
+  </script>
+</body>
+</html>

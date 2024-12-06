@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1 id="1">hello</h1>
+     <h1 id="1">hello</h1>
     <script>
         document.getElementById("1").innerHTML="change ho gaya"
 

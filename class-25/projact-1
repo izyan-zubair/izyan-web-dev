@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Hello world
+  <script>
+     if(true){
+        let a = 10
+        a = 11
+        console.log(a)
+     }
+     if(true){  
+        const a = 10 
+        console.log(a)
+     }
+
+     let counter = 0;
+     let maxCount = 5;
+
+     while (counter < maxCount){
+        console.log('counter is at: ${counter}');
+        counter++;
+     }
+  </script>
+</body>
+
+</html>

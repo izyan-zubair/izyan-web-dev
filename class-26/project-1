@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+   
+  <script>
+    const car = {
+        name:"Nissan",
+        ownerName: "izyan",
+        color:"black",
+        details(){
+            console.log(`his is a ${this.name} car, ${this.color}coler, owned by ${this.ownerName}`)
+        }
+    } 
+    car.details()
+    class Animal{
+        constructor(name){
+            this.name = name;
+        }
+        speak() {
+            console.log(`${this.name} make a sound.`);
+        }
+    }
+     const Dog = new Animal("ludo");
+     dog.speak();
+
+    class cat extends Animal {
+        speak() { 
+            console.log(`${this.name} barks.`);
+        }
+    }
+    const MyDog = new Dog(`Buddy`);
+    myDog.speak();
+    </script>
+</body>
+
+</html>
