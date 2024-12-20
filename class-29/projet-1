@@ -78,7 +78,7 @@ text-align: center;
     </form>
   </div>
   <script>
-  function validateform() {
+  function validateForm() {
         e.preventDefault();
 
         const Username = document.getElementById("Username").value;

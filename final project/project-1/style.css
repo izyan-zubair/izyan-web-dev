@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(63, 53, 53);
+    color: white;
+}
+
+img {
+    margin-top: 40px;
+}
+
+.name {
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.heading-1 {
+    text-decoration: underline;
+}
+
+#social-media {
+
+    background: #313552;
+
+}
+
+/* Add color to Social Media Links */
+
+.media_link {
+
+    padding: 1rem;
+
+    max-width: 15rem;
+
+    margin-left: 1rem;
+
+    border: 2px solid #f5ba09;
+
+    border-radius: 0.5rem;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: #2b2a2a;
+
+    font-family: "Baloo Tamma 2", cursive;
+
+}
+
+/* Main Heading Font */
+
+.m-heading {
+
+    font-family: "Roboto Slab", serif;
+
+}
+
+/* Navigation */
+
+.navigation-link {
+
+    border: 2px solid transparent;
+
+}
+
+.navigation-link:hover {
+
+    text-decoration: none;
+
+    border-bottom: 2px solid #f5ba09;
+
+    transition: 0.5s ease;
+
+}
