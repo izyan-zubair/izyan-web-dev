@@ -26,6 +26,6 @@ if num > 1:
             flag = True
             break
 if flag:
-    print(num, "is not a prine number")
+    print(num, "is not a prime number")
 else:
     print(num, "is a prime number")
